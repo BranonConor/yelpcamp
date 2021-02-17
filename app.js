@@ -87,6 +87,7 @@ const scriptSrcUrls = [
     "https://kit.fontawesome.com/",
     "https://cdnjs.cloudflare.com/",
     "https://cdn.jsdelivr.net",
+    "https://code.jquery.com/jquery-3.5.1.slim.min.js"
 ];
 const styleSrcUrls = [
     "https://kit-free.fontawesome.com/",
