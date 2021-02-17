@@ -48,7 +48,7 @@ app.use(methodOverride('_method'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 //Session data
-const secert = process.env.SECRET || 'thisshouldbeasecret!';
+const secret = process.env.SECRET || 'thisshouldbeasecret!';
 const store = new MongoDBStore({
     url: dbUrl,
     secret,
